@@ -1,0 +1,7 @@
+# config/packages/shopify.yaml
+parameters:
+    slack.api_key: '%env(SLACK_API_KEY)%'
+    slack.api_client_id: '%env(SLACK_API_CLIENT_ID)%'
+    slack.api_client_secret: '%env(SLACK_API_CLIENT_SECRET)%'
+    slack.api_signing_secret: '%env(SLACK_API_SIGNING_SECRET)%'
+    slack.api_verififcation_token: '%env(SLACK_API_VERIFICATION_TOKEN)%'
